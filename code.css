@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background: rgb(241,179,9);
+background: linear-gradient(180deg, rgba(241,179,9,1) 19%, rgba(246,243,243,1) 54%, rgba(29,217,22,0.9867297260701156) 87%);
+  background-size: cover;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 480px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.sidebar .one {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(161, 116, 32);
+}
+.sidebar .two{
+    color: white;
+    margin: 10px 130px;
+}
+.sidebar .three{
+    color: green;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    margin-left: 15rem;
+}
+
+#top {
+	height: 50px;
+	background: #ff9c51;
+	box-shadow: 0 0 5px #ff9c51;
+	-webkit-animation: top_anim 4.5s infinite;
+	animation: top_anim 4.5s infinite;
+    margin-left: 147px;
+}
+@-webkit-keyframes top_anim 
+{
+	0% {width: 0px;}
+	30%{width: 250px;}
+	70%{width: 250px;}
+	100%{width: 0px;}
+}
+@keyframes top_anim
+{
+	0% {width: 0px;}
+	30%{width: 250px;}
+	70%{width: 250px;}
+	100%{width: 0px;}
+}
+#middle {
+	height: 50px;
+	background: white;
+	box-shadow: 0 0 5px white;
+	-webkit-animation: middle_anim 4.5s infinite;
+	animation: middle_anim 4.5s infinite;
+	-webkit-animation-delay: .2s;
+	animation-delay: .2s;
+    margin-left: 150px;
+}
+@-webkit-keyframes middle_anim 
+{
+	0% {width: 0px;}
+	30%{width: 250px;}
+	70%{width: 250px;}
+	100%{width: 0px;}
+}
+@keyframes middle_anim
+{
+	0% {width: 0px;}
+	30%{width: 250px;}
+	70%{width: 250px;}
+	100%{width: 0px;}
+}
+#middle img {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	-webkit-animation: img_anim 4.5s infinite linear;
+	-webkit-animation-delay: .2s;
+	animation: img_anim 4.5s infinite;
+	animation-delay: .2s;
+}
+@-webkit-keyframes img_anim
+{
+	0% {opacity: 0;}
+	30% {opacity: 0;-webkit-transform:rotate(0deg);transform:rotate(0deg);-ms-transform:rotate(0deg);}
+	38% {opacity: 1;}
+	62% {opacity: 1;}
+	70% {opacity: 0;-webkit-transform:rotate(360deg);transform:rotate(360deg);-ms-transform:rotate(360deg);}
+	100% {opacity: 0;}
+}
+@keyframes img_anim
+{
+	0% {opacity: 0;}
+	30% {opacity: 0;-webkit-transform:rotate(0deg);transform:rotate(0deg);-ms-transform:rotate(0deg);}
+	38% {opacity: 1;}
+	62% {opacity: 1;}
+	70% {opacity: 0;-webkit-transform:rotate(360deg);transform:rotate(360deg);-ms-transform:rotate(360deg);}
+	100% {opacity: 0;}
+}
+#bottom {
+	height: 50px;
+	background: #5aad5e;
+	box-shadow: 0 0 5px #5aad5e;
+	-webkit-animation: bottom_anim 4.5s infinite;
+	animation: bottom_anim 4.5s infinite;
+	-webkit-animation-delay: .4s;
+	animation-delay: .4s;
+    margin-left: 150px; 
+
+}
+@-webkit-keyframes bottom_anim
+{
+	0% {width: 0px;}
+	30%{width: 250px;}
+	70%{width: 250px;}
+	100%{width: 0px;}
+}
+@keyframes bottom_anim
+{
+	0% {width: 0px;}
+	30%{width: 250px;}
+	70%{width: 250px;}
+	100%{width: 0px;}
+}
+#rod {
+	width: 10px;
+	height: 450px;
+    margin-left: 10px;
+	background: #874a21;
+	position: relative;
+	top: -150px;
+	left: 130px;
+  border-radius: 40%;
+}
+.independent{
+    margin-top: 20px;
+    margin-left: 12rem;
+    font-size: 40px;
+    word-spacing: 8px;
+    font-family: cursive;
+    color: rgb(64, 64, 162);
+   
+}
+.box_container {
+  width: 55%;
+  text-align: center;
+  height: 570px;
+  border: 1px solid black;
+  -webkit-box-shadow: 18px 17px 19px 16px rgba(20, 168, 82, 0.94);
+  -webkit-box-shadow: 18px 17px 19px 16px rgba(214, 240, 225, 1);
+  -moz-box-shadow: 18px 17px 19px 16px rgba(214, 240, 225, 1);
+  box-shadow: 5px 5px 5px rgba(214, 240, 225, 1);
+  border-radius: 10px;
+  margin-top: 130px ;
+  margin-right: 90px;
+}
+.main_heading{
+    margin: 15px 0px;
+    font-size: 17px;
+    color: rgb(201, 135, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    font-size: 20px;
+    line-height: 2em;
+}
+.main_heading h2{
+    color: green;
+    font-size: 30px;
+   margin: 20px 0px;
+}
+#inputNumber{
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.btn{
+    margin: 30px 0px;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: 3px solid green;
+    background-color: orange;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    border: 3px solid orange;
+    background-color: white;
+    color: green;
+}
+.bottom p{
+    color: rgb(38, 38, 229);
+    font-size: 22px;
+    line-height: 2rem;
+    word-spacing: 5px;
+}

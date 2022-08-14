@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/code.css" />
+    <title>Code Mahotsav Assignment</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <p class="one">Har</p>
+        <p class="two">Ghar</p>
+        <p class="three">Tiranga</p>
+        <!-- wave flag -->
+        <div class="flag">
+          <div id="top"></div>
+          <div id="middle">
+            <img
+              src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/50px-Ashoka_Chakra.svg.png"
+            />
+          </div>
+          <div id="bottom"></div>
+          <div id="rod"></div>
+        </div>
+      </aside>
+      <h1 class="independent">75<sup>th</sup> Independence Day</h1>
+      <div class="box_container">
+        <!-- top section start -->
+        <div class="top">
+          <div class="main_heading">
+            <h1>Number Guessing Game</h1>
+          </div>
+          <div class="para">
+            <p>Try and guess a random number between 1 and 100.</p>
+            <p>You have 10 attempts to guess the right number.</p>
+          </div>
+        </div>
+
+        <!-- Middle section start for input and button -->
+        <div class="middle_section">
+          <div class="main_heading">
+            <h2>Guess a Number</h2>
+          </div>
+          <div class="input_field">
+            <input type="text" id="inputNumber" />
+          </div>
+          <div class="button_sub">
+            <button type="button" class="btn" onclick="guessvalue()">
+              Submit Guess
+            </button>
+          </div>
+        </div>
+        <!-- End the middle section -->
+
+        <!-- Start the bottom section -->
+        <div class="bottom">
+          <p class="guess1"></p>
+          <p class="guess2"></p>
+          <p class="guess3"></p>
+        </div>
+      </div>
+    </div>
+    <script src="/code.js"></script>
+  </body>
+</html>
